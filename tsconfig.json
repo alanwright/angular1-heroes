@@ -2,7 +2,14 @@
 	"compilerOptions": {
 		"target": "es5"
 	},
-    "filesGlob": [
-        "app/**/*.ts"
+    "files": [
+        "app/typedefs.ts",
+        "app/module.ts",
+		"app/components/hero/heroController.ts",
+		"app/components/hero/hero.ts",
+		"app/components/hero/heroViewModel.ts",
+        "app/components/heroes/heroesController.ts",
+        "app/components/heroes/heroes.ts",
+        "app/services/heroService.ts"
     ]
 }
