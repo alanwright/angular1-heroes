@@ -1,0 +1,8 @@
+<hero hero="$ctrl.selectedHero"></hero>
+
+<ul class="heroes">
+    <li ng-repeat="hero in $ctrl.heroes"
+        ng-click= "$ctrl.onSelect(hero)"
+        ng-class="hero === $ctrl.selectedHero ? 'selected' : 'notSelected'">
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
+</ul>
